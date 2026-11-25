@@ -1,0 +1,799 @@
+{
+ "starter": {
+  "name": "Starter checklist",
+  "starter": true,
+  "createdAt": 1795575200000
+ },
+ "items": [
+  {
+   "id": "t01",
+   "data": {
+    "task": "Create the Luma event page",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "4+ weeks out (at least 1 month before)",
+    "channel": [
+     "Luma"
+    ],
+    "order": 10,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t02",
+   "data": {
+    "task": "Finalize speakers",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "4+ weeks out",
+    "channel": [
+     "Email"
+    ],
+    "order": 20,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t03",
+   "data": {
+    "task": "Add confirmed speakers to the Luma page as they confirm",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "As speakers confirm",
+    "channel": [
+     "Luma"
+    ],
+    "order": 30,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t04",
+   "data": {
+    "task": "Check Luma location privacy before publishing: the map pin can show the exact venue even when location is set to hidden",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "Before publishing",
+    "channel": [
+     "Luma"
+    ],
+    "order": 40,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t05",
+   "data": {
+    "task": "Send the Luma invite to everyone who has attended any TechTO event in Toronto",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "3-4 weeks out",
+    "channel": [
+     "Luma"
+    ],
+    "order": 50,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t06",
+   "data": {
+    "task": "Send the event invitation email (separate from the Luma invite), from Megha's profile or through Beehiiv segments",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "3-4 weeks out",
+    "channel": [
+     "Beehiiv",
+     "Email"
+    ],
+    "order": 60,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t07",
+   "data": {
+    "task": "Share the social media toolkit with finalized speakers, sponsors and booths",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "3-4 weeks out",
+    "channel": [
+     "Email"
+    ],
+    "order": 70,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t08",
+   "data": {
+    "task": "Share the ticket and discounted ticket with relevant communities (UofT, GBC, etc.), depending on the event",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "3-4 weeks out",
+    "channel": [
+     "Email"
+    ],
+    "order": 80,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t09",
+   "data": {
+    "task": "Plan the social media promotion for the event",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "3-4 weeks out",
+    "channel": [
+     "Instagram",
+     "LinkedIn"
+    ],
+    "order": 90,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t10",
+   "data": {
+    "task": "Announce the month's event roundup in the Slack paid member channel",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "Monthly",
+    "channel": [
+     "Slack"
+    ],
+    "order": 100,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t11",
+   "data": {
+    "task": "Send the Luma monthly roundup email",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "Monthly",
+    "channel": [
+     "Luma"
+    ],
+    "order": 110,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t12",
+   "data": {
+    "task": "Email featured companies (e.g., Rocket Ships) with the social media kit, a prompt to share, ticket links and any booth offer; automate it if possible",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [
+     "Email"
+    ],
+    "order": 120,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t13",
+   "data": {
+    "task": "Plan the social launch for event content: a reel, a static image tagging all featured companies, and one consistent hashtag without the year",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [
+     "Instagram",
+     "LinkedIn"
+    ],
+    "order": 130,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t14",
+   "data": {
+    "task": "Create the slide deck: follow the run of show order, show speaker name with company or team photo, end with QR codes for tickets (and any game); insert speaker slides as screenshots, not converted files",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [],
+    "order": 140,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t15",
+   "data": {
+    "task": "Chase speakers for their slide decks",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [
+     "Email",
+     "Slack"
+    ],
+    "order": 150,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t16",
+   "data": {
+    "task": "Create the run of show",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [],
+    "order": 160,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t17",
+   "data": {
+    "task": "Write speaker bios for Alex",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [],
+    "order": 170,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t18",
+   "data": {
+    "task": "Write fireside questions for Alex (if there is a fireside)",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [],
+    "order": 180,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t19",
+   "data": {
+    "task": "Build the Mentimeter template with updated branding and logos, and load the Q&A questions (for sponsor and partner events)",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1 week out",
+    "channel": [
+     "Mentimeter"
+    ],
+    "order": 190,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t20",
+   "data": {
+    "task": "Build a photo montage in Canva from past event photos to play on the venue screen during networking",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "1 week out",
+    "channel": [
+     "Canva"
+    ],
+    "order": 200,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t21",
+   "data": {
+    "task": "Confirm payment or PO before any event work begins, then send the invoice from Xero",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "At booking",
+    "channel": [
+     "Xero",
+     "Email"
+    ],
+    "order": 210,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t22",
+   "data": {
+    "task": "Confirm venue layout, capacity and flow: registration desk, volunteer posts, networking area, programming room",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [],
+    "order": 220,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t23",
+   "data": {
+    "task": "Confirm the food order with the caterer and share the current brand kit",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [
+     "Email"
+    ],
+    "order": 230,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t24",
+   "data": {
+    "task": "Recruit volunteers, send calendar invites and confirm T-shirt sizes",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1-2 weeks out",
+    "channel": [
+     "Email",
+     "Slack"
+    ],
+    "order": 240,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t25",
+   "data": {
+    "task": "Pack banners, mic, speakers, clicker, dongles, HDMI cables and extension cords; list and order any missing AV equipment",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1 week out",
+    "channel": [],
+    "order": 250,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t26",
+   "data": {
+    "task": "Arrange printed name tags, lanyards and signage with the venue or sponsor",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "1 week out",
+    "channel": [
+     "Email"
+    ],
+    "order": 260,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t27",
+   "data": {
+    "task": "Cross-check the previous event's attendee list against sign-ups to decide whether to offer a discount in the room",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "Day before",
+    "channel": [
+     "Luma"
+    ],
+    "order": 270,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t28",
+   "data": {
+    "task": "Audit registrations and send a door-policy reminder (e.g., no plus-ones; unapproved guests are turned away)",
+    "team": "Ops",
+    "phase": "pre",
+    "timing": "Day before",
+    "channel": [
+     "Luma",
+     "Email"
+    ],
+    "order": 280,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t29",
+   "data": {
+    "task": "Send the reminder email with logistics and timings (public events only, not private events)",
+    "team": "Marketing",
+    "phase": "pre",
+    "timing": "Day of, morning",
+    "channel": [
+     "Email"
+    ],
+    "order": 290,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t30",
+   "data": {
+    "task": "Film a venue reel on arrival, before doors open",
+    "team": "Marketing",
+    "phase": "during",
+    "timing": "Setup (before doors)",
+    "channel": [
+     "Instagram"
+    ],
+    "order": 300,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t31",
+   "data": {
+    "task": "Welcome volunteers and brief them on the event",
+    "team": "Ops",
+    "phase": "during",
+    "timing": "Setup (before doors)",
+    "channel": [],
+    "order": 310,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t32",
+   "data": {
+    "task": "Make sure the food arrives on time",
+    "team": "Ops",
+    "phase": "during",
+    "timing": "Setup (before doors)",
+    "channel": [],
+    "order": 320,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t33",
+   "data": {
+    "task": "Capture Instagram stories and upload them while the event is happening",
+    "team": "Marketing",
+    "phase": "during",
+    "timing": "During the event",
+    "channel": [
+     "Instagram"
+    ],
+    "order": 330,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t34",
+   "data": {
+    "task": "Talk to attendees and record content, e.g., mic interviews at the door (Why did you show up?) and before and after room shots",
+    "team": "Marketing",
+    "phase": "during",
+    "timing": "During the event",
+    "channel": [
+     "Instagram",
+     "LinkedIn",
+     "YouTube"
+    ],
+    "order": 340,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t35",
+   "data": {
+    "task": "Play the photo montage on the venue screen on repeat during networking",
+    "team": "Marketing",
+    "phase": "during",
+    "timing": "During the event",
+    "channel": [],
+    "order": 350,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t36",
+   "data": {
+    "task": "Keep the registration desk staffed at all times; check the guest list and note the email of anyone let in",
+    "team": "Ops",
+    "phase": "during",
+    "timing": "During the event",
+    "channel": [
+     "Luma"
+    ],
+    "order": 360,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t39",
+   "data": {
+    "task": "Export the attendee list from Luma",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Day after",
+    "channel": [
+     "Luma"
+    ],
+    "order": 390,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t40",
+   "data": {
+    "task": "Upload the attendee list to Beehiiv, ideally before the Tuesday/Thursday newsletter goes out",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Before the next newsletter (Tue/Thu)",
+    "channel": [
+     "Beehiiv"
+    ],
+    "order": 400,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t41",
+   "data": {
+    "task": "Photos, Sean covering: Sean uploads to Pixieset",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Pixieset"
+    ],
+    "order": 410,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t42",
+   "data": {
+    "task": "Photos, external photographer: collect them and upload to PicFlow",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "PicFlow"
+    ],
+    "order": 420,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t43",
+   "data": {
+    "task": "Photos, only we took them: upload to PicFlow",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "PicFlow"
+    ],
+    "order": 430,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t44",
+   "data": {
+    "task": "Save every photo to the event's internal Drive folder",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Drive"
+    ],
+    "order": 440,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t45",
+   "data": {
+    "task": "Verify the Luma discount code is scoped to general admission only, not member tickets",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Before the thank-you email",
+    "channel": [
+     "Luma"
+    ],
+    "order": 450,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t46",
+   "data": {
+    "task": "Send the attendee thank-you email: event photos, YouTube channel link, next events or the TechTO calendar, a referral link blurb, and the discount code for the next event if there is one; hold it until the full photo gallery is in",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Beehiiv",
+     "Email"
+    ],
+    "order": 460,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t47",
+   "data": {
+    "task": "Send a separate, warmer email to unapproved applicants: acknowledge limited space, share the YouTube link and discount code, no event photos",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Email"
+    ],
+    "order": 470,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t48",
+   "data": {
+    "task": "Send thank-you emails to all speakers (usually Megha)",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Email"
+    ],
+    "order": 480,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t49",
+   "data": {
+    "task": "Send thank-you emails to all booths",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "Within 1-2 days",
+    "channel": [
+     "Email"
+    ],
+    "order": 490,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t50",
+   "data": {
+    "task": "Get the videos from the videographer and upload them to YouTube (title, description, chapters)",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "After the event",
+    "channel": [
+     "YouTube"
+    ],
+    "order": 500,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t51",
+   "data": {
+    "task": "Cut reels from the speaker videos in OpusClip",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "After the event",
+    "channel": [
+     "Instagram",
+     "LinkedIn",
+     "YouTube"
+    ],
+    "order": 510,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t52",
+   "data": {
+    "task": "Plan and publish the social recap post (venue reel as a story plus a separate picture post); fix the aspect ratio for LinkedIn video",
+    "team": "Marketing",
+    "phase": "post",
+    "timing": "After the event",
+    "channel": [
+     "Instagram",
+     "LinkedIn"
+    ],
+    "order": 520,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t53",
+   "data": {
+    "task": "Follow up with sponsors: invoice and payment status, and book newsletter placements",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "After the event",
+    "channel": [
+     "Email",
+     "Xero"
+    ],
+    "order": 530,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t54",
+   "data": {
+    "task": "Return banners, AV gear and merch to storage; note anything missing",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Day after",
+    "channel": [],
+    "order": 540,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  },
+  {
+   "id": "t55",
+   "data": {
+    "task": "Hold a short debrief with the team and lead volunteers",
+    "team": "Ops",
+    "phase": "post",
+    "timing": "Day after",
+    "channel": [
+     "Email",
+     "Slack"
+    ],
+    "order": 550,
+    "eventId": null,
+    "typeId": "starter"
+   }
+  }
+ ]
+}

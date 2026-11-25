@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Put your team's Google account emails here (lowercase).
+    function onTeam() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in [
+          "you@example.com",
+          "megha@example.com",
+          "ammar@example.com"
+        ];
+    }
+    match /{collection}/{id} {
+      allow read, write: if onTeam() && collection in ['events','items','types','progress','notes'];
+    }
+    match /profiles/{uid} {
+      allow read: if onTeam();
+      allow write: if onTeam() && request.auth.uid == uid;
+    }
+  }
+}
